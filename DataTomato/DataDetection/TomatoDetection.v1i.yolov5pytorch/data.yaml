@@ -1,0 +1,13 @@
+train: /media/anlab/data/TomatoProject/DataObjectDetection/DataTrain/TomatoDetection.v1i.yolov5pytorch/train
+valid: /media/anlab/data/TomatoProject/DataObjectDetection/DataTrain/TomatoDetection.v1i.yolov5pytorch/valid
+val: /media/anlab/data/TomatoProject/DataObjectDetection/DataTrain/TomatoDetection.v1i.yolov5pytorch/valid
+
+nc: 1
+names: ['0']
+
+roboflow:
+  workspace: thy-trn-quang
+  project: tomatodetection-i09sk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thy-trn-quang/tomatodetection-i09sk/dataset/1
